@@ -1,0 +1,24 @@
+[0.024s] Invoking command in '/home/hp2204/rover/build/rover_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hp2204/rover/build/rover_description -- -j12 -l12
+[0.089s] Invoked command in '/home/hp2204/rover/build/rover_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hp2204/rover/build/rover_description -- -j12 -l12
+[0.108s] Invoking command in '/home/hp2204/rover/build/rover_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hp2204/rover/build/rover_description
+[0.123s] -- Install configuration: ""
+[0.124s] -- Execute custom install script
+[0.125s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/lib/rover_description/wasd_teleop.py
+[0.126s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/rover_description/urdf/rover.urdf
+[0.126s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/rover_description/launch/spawn_rover.launch.py
+[0.127s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description
+[0.127s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description
+[0.128s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/rover_description/environment/ament_prefix_path.sh
+[0.129s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv
+[0.130s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/rover_description/environment/path.sh
+[0.130s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/rover_description/environment/path.dsv
+[0.131s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/rover_description/local_setup.bash
+[0.131s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/rover_description/local_setup.sh
+[0.131s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/rover_description/local_setup.zsh
+[0.132s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/rover_description/local_setup.dsv
+[0.132s] -- Symlinking: /home/hp2204/rover/install/rover_description/share/rover_description/package.dsv
+[0.151s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/ament_index/resource_index/packages/rover_description
+[0.151s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake
+[0.151s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake
+[0.152s] -- Up-to-date symlink: /home/hp2204/rover/install/rover_description/share/rover_description/package.xml
+[0.155s] Invoked command in '/home/hp2204/rover/build/rover_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hp2204/rover/build/rover_description
