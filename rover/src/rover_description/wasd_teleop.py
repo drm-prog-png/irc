@@ -17,10 +17,17 @@ W : Forward
 S : Backward
 A : Turn Left
 D : Turn Right
-Release all keys : Stop
+Release all keys : Stop shortly after release
+SPACE : Stop immediately
 CTRL-C to exit
 ---------------------------------------------
 """
+
+LINEAR_SPEED = 0.2
+ANGULAR_SPEED = 0.4
+LINEAR_ACCELERATION = 0.8
+ANGULAR_ACCELERATION = 5.0
+KEY_TIMEOUT = 0.6
 
 
 class WASDTeleop(Node):
@@ -37,10 +44,6 @@ class WASDTeleop(Node):
     def publish_cmd(self, linear_x, angular_z):
         twist = Twist()
         twist.linear.x = linear_x
-        twist.linear.y = 0.0
-        twist.linear.z = 0.0
-        twist.angular.x = 0.0
-        twist.angular.y = 0.0
         twist.angular.z = angular_z
         self.publisher_.publish(twist)
 
@@ -50,27 +53,66 @@ class WASDTeleop(Node):
         print(msg, flush=True)
 
         try:
+            linear_x = 0.0
+            angular_z = 0.0
+            target_linear_x = 0.0
+            target_angular_z = 0.0
+            last_key_time = None
+            last_update_time = time.monotonic()
+
             while rclpy.ok():
                 key = self.get_key()
-
-                linear_x = 0.0
-                angular_z = 0.0
 
                 if key is None:
                     pass
                 elif key in ('w', 'W'):
-                    linear_x = 1.0
+                    target_linear_x = LINEAR_SPEED
+                    target_angular_z = 0.0
+                    last_key_time = time.monotonic()
                 elif key in ('s', 'S'):
-                    linear_x = -1.0
+                    target_linear_x = -LINEAR_SPEED
+                    target_angular_z = 0.0
+                    last_key_time = time.monotonic()
                 elif key in ('a', 'A'):
-                    angular_z = 1.5
+                    target_linear_x = 0.0
+                    target_angular_z = ANGULAR_SPEED
+                    last_key_time = time.monotonic()
                 elif key in ('d', 'D'):
-                    angular_z = -1.5
+                    target_linear_x = 0.0
+                    target_angular_z = -ANGULAR_SPEED
+                    last_key_time = time.monotonic()
+                elif key == ' ':
+                    linear_x = 0.0
+                    angular_z = 0.0
+                    target_linear_x = 0.0
+                    target_angular_z = 0.0
+                    last_key_time = None
                 elif key == '\x03':
                     break
 
+                now = time.monotonic()
+                if (
+                    last_key_time is not None
+                    and now - last_key_time > KEY_TIMEOUT
+                ):
+                    target_linear_x = 0.0
+                    target_angular_z = 0.0
+                    last_key_time = None
+
+                elapsed = now - last_update_time
+                max_linear_change = LINEAR_ACCELERATION * elapsed
+                max_angular_change = ANGULAR_ACCELERATION * elapsed
+                linear_x += max(
+                    -max_linear_change,
+                    min(target_linear_x - linear_x, max_linear_change),
+                )
+                angular_z += max(
+                    -max_angular_change,
+                    min(target_angular_z - angular_z, max_angular_change),
+                )
+                last_update_time = now
+
                 self.publish_cmd(linear_x, angular_z)
-                time.sleep(0.02)
         finally:
             self.publish_cmd(0.0, 0.0)
             termios.tcsetattr(sys.stdin, termios.TCSADRAIN, self.settings)

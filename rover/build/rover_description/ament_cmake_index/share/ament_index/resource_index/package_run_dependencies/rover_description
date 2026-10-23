@@ -1,1 +1,1 @@
-rclpy;geometry_msgs;robot_state_publisher;gazebo_ros;xacro
+ament_index_python;launch;launch_ros;rclpy;geometry_msgs;nav_msgs;robot_state_publisher;ros_gz_bridge;ros_gz_sim;rosgraph_msgs;sensor_msgs;tf2_msgs

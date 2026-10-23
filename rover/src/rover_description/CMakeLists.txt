@@ -10,7 +10,7 @@ install(
 )
 
 install(
-  DIRECTORY urdf launch
+  DIRECTORY urdf launch worlds
   DESTINATION share/${PROJECT_NAME}
 )
 ament_package()

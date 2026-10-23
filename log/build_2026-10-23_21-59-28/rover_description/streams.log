@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/devika/irc/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/devika/irc/build/rover_description -- -j12 -l12
+[0.066s] Invoked command in '/home/devika/irc/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/devika/irc/build/rover_description -- -j12 -l12
+[0.081s] Invoking command in '/home/devika/irc/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/devika/irc/build/rover_description
+[0.095s] -- Install configuration: ""
+[0.095s] -- Up-to-date: /home/devika/irc/install/rover_description/lib/rover_description/wasd_teleop.py
+[0.095s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/urdf
+[0.095s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/urdf/rover.urdf
+[0.095s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/launch
+[0.095s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/launch/__pycache__
+[0.095s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/launch/__pycache__/spawn_rover.launch.cpython-312.pyc
+[0.096s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/launch/spawn_rover.launch.py
+[0.096s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/worlds
+[0.096s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/worlds/empty.sdf
+[0.096s] -- Up-to-date: /home/devika/irc/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description
+[0.096s] -- Up-to-date: /home/devika/irc/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description
+[0.096s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/environment/ament_prefix_path.sh
+[0.096s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv
+[0.096s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/environment/path.sh
+[0.096s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/environment/path.dsv
+[0.096s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/local_setup.bash
+[0.096s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/local_setup.sh
+[0.096s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/local_setup.zsh
+[0.096s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/local_setup.dsv
+[0.097s] -- Installing: /home/devika/irc/install/rover_description/share/rover_description/package.dsv
+[0.097s] -- Up-to-date: /home/devika/irc/install/rover_description/share/ament_index/resource_index/packages/rover_description
+[0.097s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake
+[0.097s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake
+[0.097s] -- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/package.xml
+[0.098s] Invoked command in '/home/devika/irc/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/devika/irc/build/rover_description

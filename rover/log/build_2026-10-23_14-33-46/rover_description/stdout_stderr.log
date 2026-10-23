@@ -1,0 +1,38 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/devika/irc/rover/build/rover_description
+-- Install configuration: ""
+-- Installing: /home/devika/irc/rover/install/rover_description/lib/rover_description/wasd_teleop.py
+-- Up-to-date: /home/devika/irc/rover/install/rover_description/share/rover_description/urdf
+-- Installing: /home/devika/irc/rover/install/rover_description/share/rover_description/urdf/rover.urdf
+-- Up-to-date: /home/devika/irc/rover/install/rover_description/share/rover_description/launch
+-- Installing: /home/devika/irc/rover/install/rover_description/share/rover_description/launch/spawn_rover.launch.py
+-- Installing: /home/devika/irc/rover/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description
+-- Installing: /home/devika/irc/rover/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description
+-- Installing: /home/devika/irc/rover/install/rover_description/share/rover_description/environment/ament_prefix_path.sh
+-- Installing: /home/devika/irc/rover/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv
+-- Installing: /home/devika/irc/rover/install/rover_description/share/rover_description/environment/path.sh
+-- Installing: /home/devika/irc/rover/install/rover_description/share/rover_description/environment/path.dsv
+-- Installing: /home/devika/irc/rover/install/rover_description/share/rover_description/local_setup.bash
+-- Installing: /home/devika/irc/rover/install/rover_description/share/rover_description/local_setup.sh
+-- Installing: /home/devika/irc/rover/install/rover_description/share/rover_description/local_setup.zsh
+-- Installing: /home/devika/irc/rover/install/rover_description/share/rover_description/local_setup.dsv
+-- Up-to-date: /home/devika/irc/rover/install/rover_description/share/rover_description/package.dsv
+-- Installing: /home/devika/irc/rover/install/rover_description/share/ament_index/resource_index/packages/rover_description
+-- Installing: /home/devika/irc/rover/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake
+-- Installing: /home/devika/irc/rover/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake
+-- Installing: /home/devika/irc/rover/install/rover_description/share/rover_description/package.xml
