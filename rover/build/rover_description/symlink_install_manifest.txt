@@ -1,5 +1,6 @@
 /home/devika/irc/rover/install/rover_description/lib/rover_description/wasd_teleop.py
 /home/devika/irc/rover/install/rover_description/share/rover_description/urdf/rover.urdf
+/home/devika/irc/rover/install/rover_description/share/rover_description/launch/__pycache__/spawn_rover.launch.cpython-312.pyc
 /home/devika/irc/rover/install/rover_description/share/rover_description/launch/spawn_rover.launch.py
 /home/devika/irc/rover/install/rover_description/share/rover_description/worlds/empty.sdf
 /home/devika/irc/rover/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description

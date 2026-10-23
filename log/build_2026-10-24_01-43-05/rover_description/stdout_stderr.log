@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Up-to-date: /home/devika/irc/install/rover_description/lib/rover_description/wasd_teleop.py
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/urdf
+-- Installing: /home/devika/irc/install/rover_description/share/rover_description/urdf/rover.urdf
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/launch
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/launch/__pycache__
+-- Installing: /home/devika/irc/install/rover_description/share/rover_description/launch/__pycache__/spawn_rover.launch.cpython-312.pyc
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/launch/spawn_rover.launch.py
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/worlds
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/worlds/empty.sdf
+-- Up-to-date: /home/devika/irc/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description
+-- Up-to-date: /home/devika/irc/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/environment/path.sh
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/environment/path.dsv
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/local_setup.bash
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/local_setup.sh
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/local_setup.zsh
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/local_setup.dsv
+-- Installing: /home/devika/irc/install/rover_description/share/rover_description/package.dsv
+-- Up-to-date: /home/devika/irc/install/rover_description/share/ament_index/resource_index/packages/rover_description
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake
+-- Up-to-date: /home/devika/irc/install/rover_description/share/rover_description/package.xml
